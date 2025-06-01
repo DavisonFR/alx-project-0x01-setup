@@ -1,12 +1,14 @@
-import React from "react";
-
-const PostsPage: React.FC = () => {
+import Header from "../components/layout/Header";
+const Posts: React.FC = () => {
   return (
-    <div className="p-4">
-      <h1 className="text-3xl font-bold">Posts Page</h1>
-      <p>List of posts will go here.</p>
+    <div>
+      <Header />
+      <main className="p-6">
+        <h2 className="text-3xl font-bold">Posts Page</h2>
+        <p>Here you will find various posts about different topics.</p>
+      </main>
     </div>
   );
 };
 
-export default PostsPage;
+export default Posts;

@@ -1,10 +1,9 @@
-import HeaderComponent from "@/components/layout/Header"; // UPDATED IMPORT
 import Link from "next/link";
 
 const Users: React.FC = () => {
   return (
     <div>
-      <HeaderComponent />  {/* UPDATED COMPONENT NAME */}
+      <users/>
       <main className="p-6">
         <h2 className="text-3xl font-bold">Users Page</h2>
         <p>Here you will find a list of users who are part of this application.</p>
