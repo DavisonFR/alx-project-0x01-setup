@@ -1,4 +1,5 @@
-import { PostProps } from "@/interfaces";
+import { PostProps } from "../interfaces"; // Use relative path if alias isn't working
+
 
 const PostCard: React.FC<PostProps> = ({ title, body, userId, id }) => {
   return (
